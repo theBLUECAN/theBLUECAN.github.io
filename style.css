@@ -1,1 +1,147 @@
 
+body, html {
+    position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+background-color: #092834;
+font-family: 'Neucha';
+font-size: 120%;
+color: #E8ECF1;
+}
+
+
+h1 { 
+font-family: 'Truculenta', sans-serif;
+font-weight: 300;
+font-size: 500%;
+color: #415E59;
+text-decoration: none;
+text-align: center;
+}
+
+
+h2 { 
+font-family: 'Truculenta', sans-serif;
+font-weight: 280;
+font-size: 280%;
+color: #415E59;
+text-decoration: underline;
+padding: 0;
+margin: 0;
+}
+
+.noselect {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */     
+} 
+
+
+
+.centerText{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerSubText{
+  position: fixed;
+  top: 57%;
+  left: 50%;
+  transform: translate(-57%, -50%);
+}
+
+.subHeader {
+ position: absolute;
+ text-align: center;
+ top: 17%;
+ left: 10%;
+ width: 80%;
+ tranform: translate(-17%, -10%);
+}
+
+/*START_post: for all pages*/
+.post {
+text-align: left;
+position: absolute;
+top: 20%;
+left: 10%;
+width: 80%;
+transform: translate (-10%, 30%)
+}
+/*END_post: for all pages*/
+
+
+  
+/*START_LinkColours*/
+a:link {
+color: #2F4F4F;
+text-decoration: none;
+}
+
+a:visited{
+color: #C5DCA8;
+text-decoration: none;
+}
+
+a:hover{
+color: #9BA17B;
+text-decoration: none;
+}
+
+a:active{
+color:#415E59;
+text-decoration: none;
+}
+/*END_LinkColours*/
+
+
+footer {
+font-size: 100%;
+color: #E3D0F1;
+text-align: center;
+position: fixed;
+bottom: 0%;
+left: 50%;
+transform: translate(-50%, 0%);
+}  
+
+
+
+/*START_hoverWordings*/
+.hoverWordings {
+  position: relative;
+  display: inline-block;  
+}
+
+.hoverWordings .hoverWordingstext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  opacity: 0.7;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.hoverWordings:hover .hoverWordingstext {
+  visibility: visible;
+  }
+/*END_hoverWordings*/
+  
