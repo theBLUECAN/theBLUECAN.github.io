@@ -115,6 +115,13 @@ left: 50%;
 transform: translate(-50%, 0%);
 }  
 
+/*START_countDownTimer*/
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+/*END_countDownTimer*/
 
 
 /*START_hoverWordings*/
